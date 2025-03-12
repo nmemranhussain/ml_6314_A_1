@@ -63,4 +63,16 @@ The dataset was divided into training and validation data as follows:
 | Training MSE of training data using five features | 45.62027690029117 |  
 | Test MSE of test data using five features         | 59.659317806457906|  
 
+### Software Used to Implement the Model
+- **Software:** Python (with libraries such as Pandas, Scikit-learn, seaborn & matplotlib)
+
+### Version of the Modeling Software: 
+- **'pandas'**: '2.2.2',
+- **'scikit-learn'**: '1.4.2',
+- **'seaborn'**: '0.13.2',
+- **'matplotlib'**: '3.8.4**
+
+## Quantitative Analysis
+
+
 
