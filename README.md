@@ -47,7 +47,7 @@ The dataset was divided into training and validation data as follows:
 - This model card utilizes only linear model such as **Linear Regression**.
 
 ### Evaluation Metrics  
-- MSE (Mean Square Error): Measures the model's ability to distinguish the optimal feature combination for predicting PU_ct and DO_ct separately, our target variables, involves the use of five features in different combinations. This configuration yields the lowest mean squared error (MSE) on the test data for different combination of features.
+- MSE (Mean Square Error): This model evaluates the optimal combination of features for predicting PU_ct and DO_ct, our target variables, by using five features in various combinations. This approach achieves the lowest mean squared error (MSE) on the train and test data across different feature combinations.
 
 ### Final Values of MSEs of Number of Pick-ups (PO_ct) for All Data using 'linear regression' model:
 
