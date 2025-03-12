@@ -48,7 +48,7 @@ The dataset was divided into training and validation data as follows:
 ### Evaluation Metrics  
 - MSE (Mean Square Error): Measures the model's ability to distinguish the optimal feature combination for predicting PU_ct and DO_ct separately, our target variables, involves the use of five features in different combinations. This configuration yields the lowest mean squared error (MSE) on the test data for different combination of features.
 
-### Final Values of MSEs for All Data using 'linear regression' model:
+### Final Values of MSEs of Number of Pick-ups (PO_ct) for All Data using 'linear regression' model:
 
 | Dataset                                           |       MSE         |   
 |---------------------------------------------------|-------------------|  
@@ -63,6 +63,21 @@ The dataset was divided into training and validation data as follows:
 | Training MSE of training data using five features | 45.62027690029117 |  
 | Test MSE of test data using five features         | 59.659317806457906|  
 
+### Final Values of MSEs of Number of Drop-offs (DO_ct) for All Data using 'linear regression' model:
+
+| Dataset                                           |       MSE         |   
+|---------------------------------------------------|-------------------|  
+| Training MSE of training data using one feature   | 69.37157438001258 |  
+| Test MSE of test data using one feature           | 80.1876296891039  |   
+| Training MSE of training data using two features  | 59.300456147167374|  
+| Test MSE of test data using two features          | 74.44668505466156 |  
+| Training MSE of training data using three features| 59.27963855175449 |  
+| Test MSE of test data using three features        | 75.09769268740463 |  
+| Training MSE of training data using four features | 51.86587213124935 |  
+| Test MSE of test data using four features         | 62.98767545228343 |  
+| Training MSE of training data using five features | 48.88214307964564 |  
+| Test MSE of test data using five features         | 65.20371376903877 |  
+
 ### Software Used to Implement the Model
 - **Software:** Python (with libraries such as Pandas, Scikit-learn, seaborn & matplotlib)
 
@@ -73,6 +88,14 @@ The dataset was divided into training and validation data as follows:
 - **'matplotlib'**: '3.8.4**
 
 ## Quantitative Analysis
+### Plots Related to Data or Final Model
+ 
+![Plot of MSE Vs. Features](6314_1.jpg) 
 
+**Description**: This chart depicts the training and test mean squared error (MSE) values for a model of Number of pick-ups (PO_ct) as additional features are incrementally added, showing that as more features are included, the training error generally decreases while the test error initially decreases but then increases, indicating potential overfitting when all features are used.  
+
+![Plot of MSE Vs. Features](6314_1_1.jpg) 
+
+**Description**: This graph shows the changes in training and test mean squared error (MSE) for a model of Number of drop-offs (DO_ct) as it progressively incorporates more features; while the training MSE steadily declines, suggesting better fitting to the training data, the test MSE decreases initially but then stabilizes, indicating that adding more features beyond a certain point does not necessarily improve the model's performance on new, unseen data.
 
 
