@@ -28,6 +28,7 @@ The dataset was divided into training and validation data as follows:
 ## Data Dictionary
 
 | Column Name     | Modeling Role  | Measurement Level | Description                                                                                     |  
+|-----------------|----------------|-------------------|-------------------------------------------------------------------------------------------------|
 | PU_ct	          | Dependent	     | Ratio	           | Represents the count of bike pickups; used as a response variable in regression models.         |  
 | DO_ct	          | Dependent	     | Ratio	           | Represents the count of bike drop-offs; used as a response variable in regression models.       |  
 | temp	          | Independent	   | Interval	         | Temperature in degrees Celsius; used to predict bike usage based on weather conditions.         |  
