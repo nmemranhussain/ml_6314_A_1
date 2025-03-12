@@ -18,7 +18,7 @@ This GitHub repository analyzes the impact of weather on bike-sharing in Washing
 - **Dataset Name:** Capital Bikeshare Data ('202402-capitalbikeshare-tripdata.csv', '202403-capitalbikeshare-tripdata.csv', '202404-capitalbikeshare-tripdata.csv' & 'DC_weather_2024.csv')  
 - **Number of Samples:** 318689, 436947, 490266 & 367  
 - **Features Used:** 'temp','precip','windspeed','uvindex'&'icon'
-- **Target variable Used:** 'NUmber of pick-ups (PO_ct) & Number of Drop-offs (DO_ct)
+- **Target variable Used:** 'Number of pick-ups (PO_ct) & Number of Drop-offs (DO_ct)
 - **Data Source:** [capitalbikeshare-data](https://s3.amazonaws.com/capitalbikeshare-data/index.html)  
 
 ### Splitting the Data for logistic regression model
