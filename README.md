@@ -25,14 +25,14 @@ The dataset was divided into training and validation data as follows:
 - **Training Data Split:** 60%
 - **Validation Data Split:** 40%
 
-### Data Dictionary
+## Data Dictionary
 
-| Column Name     | Modeling Role  | Measurement Level | Description                                                                                     |
-| PU_ct	          | Dependent	     | Ratio	           | Represents the count of bike pickups; used as a response variable in regression models.         |
-| DO_ct	          | Dependent	     | Ratio	           | Represents the count of bike drop-offs; used as a response variable in regression models.       |
-| temp	          | Independent	   | Interval	         | Temperature in degrees Celsius; used to predict bike usage based on weather conditions.         |
-| precip	        | Independent	   | Ratio	           | Precipitation in millimeters; used to assess the impact of rain on bike usage.                  |
-| windspeed	      | Independent	   | Ratio	           | Wind speed in kilometers per hour; considered to study its effect on biking comfort and safety. |
-| uvindex	        | Independent	   | Ordinal	         | UV index, categorized from low to high; used to determine the impact of sun exposure on biking. |
-| icon	          | Independent	   | Nominal	         | Weather condition icon (e.g., sunny, cloudy, rain); used to categorize daily weather visually.  |
+| Column Name     | Modeling Role  | Measurement Level | Description                                                                                     |  
+| PU_ct	          | Dependent	     | Ratio	           | Represents the count of bike pickups; used as a response variable in regression models.         |  
+| DO_ct	          | Dependent	     | Ratio	           | Represents the count of bike drop-offs; used as a response variable in regression models.       |  
+| temp	          | Independent	   | Interval	         | Temperature in degrees Celsius; used to predict bike usage based on weather conditions.         |  
+| precip	        | Independent	   | Ratio	           | Precipitation in millimeters; used to assess the impact of rain on bike usage.                  |  
+| windspeed	      | Independent	   | Ratio	           | Wind speed in kilometers per hour; considered to study its effect on biking comfort and safety. |  
+| uvindex	        | Independent	   | Ordinal	         | UV index, categorized from low to high; used to determine the impact of sun exposure on biking. |  
+| icon	          | Independent	   | Nominal	         | Weather condition icon (e.g., sunny, cloudy, rain); used to categorize daily weather visually.  |  
 
